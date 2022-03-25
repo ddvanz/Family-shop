@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="asset/image/logoo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&family=Lobster&family=Lora:ital,wght@1,500&family=Montserrat:wght@600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Product page</title>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="warna" id="sidebar-wrapper">
+            <div class="sidebar-heading py-4 wkwk text-white fs-4 fw-bold text-uppercase"><i class="fas fa-user me-2"></i></i>Admin
+            </div>
+            <div class="list-group list-group-flush my-3">
+                <a href="index.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i 
+                        class="bi bi-card-checklist me-2"></i></i>Dashboard</a>
+                <a href="product.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="bi bi-bag me-2 fw-bold"></i></i>Product</a>
+                <a href="inbox.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="bi bi-envelope me-2"></i></i>Inbox</a>
+            </div>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
+                </div>
+                <form class="d-none d-sm-inline-block form-inline me-3 mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                            aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fas fa-search fa-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <!-- Icon bars -->
+
+               
+                    
+               
+
+                <!-- social media -->
+
+                <a href="#"
+                    class=" ahaha d-none d-sm-inline-block form-inline me-3 ms-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="#"
+                    class=" ahaha d-none d-sm-inline-block form-inline me-3 ms-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search"><i
+                        class="bi bi-instagram"></i> </a>
+                <a href="#"
+                    class=" ahaha d-none d-sm-inline-block form-inline ms-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search"><i
+                        class="bi bi-telegram"></i></a>
+
+                <!-- Right icon -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white second-text fw-bold" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user me-2"></i>Admin
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="profil.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="#" id="btn">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--  -->
+            <!-- awal -->
+            <div class="container mt-5">
+                <div class="judul-katagori" style="background-color: #fff; padding: 5px 10px;">
+                    <h5 class="text-center" style="margin-top: 5px;">Katagori</h5>
+                </div>
+                <div class="row text-center row-container">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/baju.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">Baju</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/celana.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">Celana</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/elektronik.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">elektronik</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/hp.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">Hp</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/fotografi.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">fotografi</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/jamtangan.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">jam tangan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/kecantikan.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">kecantikan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/kesehatan.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">kesehatan</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/laptop.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">laptop</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/otomotif.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">otomotif</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/sepatu.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">sepatu</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="menu-katagori">
+                            <a href=""><img src="asset/image/tas.png" class="img-categori mt-3" alt=""></a>
+                            <p class="mt-2">tas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- akhr -->
+            <div class="container">
+                <div class="judul-katagori" style="background-color: #fff; padding: 5px 10px;">
+                    <h5 class="text-center" style="margin-top: 5px;">Produk</h5>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Headset</h5>
+                              <p class="card-text">Rp. 149.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalyy">
+                                    Edit
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalyy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="col-md-6">
+                                         <img src="asset/image/produk1 - Copy.jpg" alt="">
+                                        </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Baju</h5>
+                              <p class="card-text">Rp. 59.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Sepatu jordan</h5>
+                              <p class="card-text">Rp. 799.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Jam tangan</h5>
+                              <p class="card-text">Rp. 1.149.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">sanitizer</h5>
+                              <p class="card-text">Rp. 19.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Tas</h5>
+                              <p class="card-text">Rp. 49.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Kamera</h5>
+                              <p class="card-text">Rp. 8.999.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Celana</h5>
+                              <p class="card-text">Rp. 149.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/produk9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Keyboard</h5>
+                              <p class="card-text">Rp. 599.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/headphone.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Headset</h5>
+                              <p class="card-text">Rp. 849.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/jacket.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Jacket kulit</h5>
+                              <p class="card-text">Rp. 249.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <!-- klik detail -->
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                  Detail
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <!-- akhir detail -->
+
+                              <!-- awal edit -->
+                              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaledit1">
+                                  Edit
+                              </button>
+                              <div class="modal fade" id="exampleModaledit1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="asset/image/produk1 - Copy.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <!-- akhir edit -->
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6 look">
+                        <div class="card">
+                            <img src="asset/image/headphone.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Baju</h5>
+                              <p class="card-text">Rp. 49.000</p>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-fill" style="color: orange;"></i>
+                              <i class="bi bi-star-half" style="color: orange;"></i>
+                              <a href="#" class="btn btn-primary">Detail</a>
+                              <a href="#" class="btn btn-danger">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+            
+
+    <!-- /#page-content-wrapper -->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+    <script>
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', function(){
+            Swal.fire({
+                title: 'Apakah anda yakin ingin logout?',
+                text: "klik ya untuk logout",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Ya, logout'
+                }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                    'Berhasil logout',
+                    'Silahkan login kembali',
+                    'success'
+                    )
+                }
+                })
+        })
+    </script>
+    <script>
+        var el = document.getElementById("wrapper");
+        var toggleButton = document.getElementById("menu-toggle");
+
+        toggleButton.onclick = function () {
+            el.classList.toggle("toggled");
+        };
+    </script>
+</body>
